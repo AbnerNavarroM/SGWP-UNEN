@@ -1,0 +1,39 @@
+.resumenAdminParalelo {
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    box-shadow: 10px 5px 5px gray;
+}
+
+@media screen and (max-width: 550px) {
+    .tituloParalelo {
+        font-size: 1em;
+    }
+    .resumenAdminParalelo {
+        padding: 0px;
+    }
+}
+
+.resumenAdminParalelo:hover {
+    background-color: #dcdddd;
+    transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    /* Firefox */
+    -webkit-transform: scale(1.03);
+    /* Chrome - Safari */
+    -o-transform: scale(1.03);
+    /* Opera */
+    -ms-transform: scale(1.03);
+    /* IE9 */
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    /* Firefox */
+    -webkit-transition: 0.5s ease;
+    /* Chrome - Safari */
+    -o-transition: 0.5s ease;
+    /* Opera */
+}
+
+.p-info {
+    font-size: 16px;
+}
